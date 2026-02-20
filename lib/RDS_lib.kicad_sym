@@ -804,7 +804,7 @@
 		(symbol "odrive_pro_0_1"
 			(rectangle
 				(start -10.16 10.16)
-				(end 10.16 -22.86)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -888,7 +888,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -10.16 0)
+				(at -5.08 -17.78 90)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -906,7 +906,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -12.7 0)
+				(at -2.54 -17.78 90)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -924,7 +924,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -15.24 0)
+				(at 0 -17.78 90)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -942,7 +942,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -17.78 0)
+				(at 2.54 -17.78 90)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -960,7 +960,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 7.62 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "out_A"
 					(effects
@@ -978,7 +978,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 5.08 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "out_B"
 					(effects
@@ -996,7 +996,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "out_C"
 					(effects
@@ -1014,7 +1014,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -5.08 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "DC+"
 					(effects
@@ -1032,63 +1032,9 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -7.62 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "DC-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -15.24 180)
-				(length 2.54)
-				(name "hall_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -17.78 180)
-				(length 2.54)
-				(name "hall_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "hall_3"
 					(effects
 						(font
 							(size 1.27 1.27)
