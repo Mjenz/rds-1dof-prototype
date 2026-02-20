@@ -3183,13 +3183,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 104.14 107.95)
+			(xy 111.76 105.41) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08e3a974-bf2a-4626-a662-761c9ce1f1f7")
+		(uuid "09f06825-f6d5-4dd6-adc4-2b4c49cd5dae")
 	)
 	(wire
 		(pts
@@ -3293,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 110.49) (xy 102.87 110.49)
+			(xy 111.76 110.49) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3340,16 +3340,6 @@
 			(type default)
 		)
 		(uuid "3c328a0a-b451-41ba-9f2a-b906233cbb76")
-	)
-	(wire
-		(pts
-			(xy 104.14 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c723948-c602-46a5-9b06-3404f4b566c2")
 	)
 	(wire
 		(pts
@@ -3630,16 +3620,6 @@
 			(type default)
 		)
 		(uuid "c103d440-ada6-4f3c-a972-729a199e6a38")
-	)
-	(wire
-		(pts
-			(xy 109.22 102.87) (xy 104.14 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cadaf57b-11c6-4ea5-ac18-0da1e01188cb")
 	)
 	(wire
 		(pts
@@ -3939,7 +3919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 102.87 0)
+		(at 102.87 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3947,7 +3927,7 @@
 		(dnp no)
 		(uuid "01781420-1e21-4e62-a84a-81b76228211b")
 		(property "Reference" "#PWR026"
-			(at 109.22 109.22 0)
+			(at 102.87 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 107.95 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 102.87 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +3953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 102.87 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 102.87 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,16 +4919,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 110.49 0)
+		(at 111.76 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7fcf5faa-d551-4745-9295-868ea3ed1697")
 		(property "Reference" "#PWR05"
-			(at 114.3 114.3 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4936,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 105.41 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 110.49 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 110.49 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 110.49 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,6 +5532,71 @@
 			(project ""
 				(path "/3f513f6b-8cac-4078-9835-772e37441c61"
 					(reference "LRS-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c89d43-6175-477a-b2ea-c8dc6dda852f")
+		(property "Reference" "#PWR06"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b7534f-99a1-4f34-a1b0-3e30134516c7")
+		)
+		(instances
+			(project ""
+				(path "/3f513f6b-8cac-4078-9835-772e37441c61"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
